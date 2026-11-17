@@ -22,12 +22,5 @@ resource "aws_s3_bucket" "tf_test_baivab_bucket" {
   }
 }
 
-resource "aws_s3_bucket" "tf_test_baivab_bucket2" {
-  bucket = "my-tf-test-baiv-bucket-102-neel"
 
-  tags = {
-    Name        = "My bucket2"
-    Environment = "Test"
-  }
-}
 
